@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.homeContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeImage {
+  height: 100px;
+}
+
+.homeHeading {
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.homeLightBackground {
+  background-color: black;
+}
+
+.homeDarkBackground {
+  background-color: white;
+}
+
+.homeLightText {
+  color: white;
+}
+
+.homeDarkText {
+  color: black;
+}

@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbarContainerMain {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.websiteLogo {
+  height: 50px;
+}
+
+.homeButton {
+  font-family: roboto;
+  font-weight: 500;
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.aboutButton {
+  font-family: roboto;
+  font-weight: 500;
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.homeLink {
+  text-decoration: none;
+}
+
+.aboutLink {
+  text-decoration: none;
+}
+
+.themeImage {
+  height: 50px;
+}
+
+.menuContainer {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.toggleButton {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.darkBackground {
+  background-color: #333333;
+}
+
+.lightBackground {
+  background-color: white;
+}
+
+.lightText {
+  color: white;
+}
+
+.darkText {
+  color: black;
+}
+
+.navbarHr {
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 0px;
+  border-color: #333333;
+}

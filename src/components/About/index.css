@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.aboutContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImage {
+  height: 100px;
+}
+
+.aboutHeading {
+  font-family: roboto;
+  font-size: 30px;
+}
+
+.aboutLightBackground {
+  background-color: black;
+}
+
+.aboutDarkBackground {
+  background-color: white;
+}
+
+.aboutLightText {
+  color: white;
+}
+
+.aboutDarkText {
+  color: black;
+}

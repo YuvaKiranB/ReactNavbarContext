@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.notFoundContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.notFoundContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFoundImage {
+  height: 250px;
+}
+
+.notFoundHeading {
+  font-family: roboto;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.notFoundPara {
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.notFoundLightBackground {
+  background-color: black;
+}
+
+.notFoundDarkBackground {
+  background-color: white;
+}
+
+.notFoundLightText {
+  color: white;
+}
+
+.notFoundDarkText {
+  color: black;
+}
+
+.notFoundDarkTextPara {
+  color: #64748b;
+}
+
+.notFoundLightTextPara {
+  color: white;
+}
